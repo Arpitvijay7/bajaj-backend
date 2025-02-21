@@ -4,7 +4,8 @@ const cors = require("cors");
 
 const allowedOrigins = [
   "http://localhost:4000",
-  "http://localhost:3001"
+  "http://localhost:3001",
+  "https://bajaj-frontent-lemon.vercel.app"
 ];
 
 app.use(express.json());
